@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-       app = docker.build("the1amit/shopping-app")
+       app = docker.build("pushpamu/shopping-app")
     }
 
 
